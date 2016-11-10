@@ -66,7 +66,7 @@ public class TestRampMotorSpeed extends LinearOpMode {
             }
 
             // Display the current value
-            telemetry.addData("Motor Power:", "%5.2f", power);
+            telemetry.addData("Motor Power:::", "%5.2f", power);
             telemetry.addData(">", "Press Stop to end test." );
             telemetry.update();
 
